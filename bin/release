@@ -1,5 +1,0 @@
-#!/bin/sh
-
-echo "Gitlab Runner on Scalingo"
-echo "Release script"
-exit 0
