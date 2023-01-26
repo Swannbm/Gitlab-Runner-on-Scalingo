@@ -7,7 +7,7 @@
     "env": {
       "BUILDPACK_URL": {
         "description": "Buildpack used to deploy Gitlab Runner",
-        "value": "https://gitlab.com/Swannbm/gitlab-runner-on-scalingo.git",
+        "value": "https://github.com/Swannbm/Gitlab-Runner-on-Scalingo.git",
         "required": true
       },
       "REGISTRATION_TOKEN": {
