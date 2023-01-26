@@ -1,0 +1,18 @@
+{
+    "name": "Gitlab Runner",
+    "description": "Deploy a Runner on Scalingo",
+    "website": "https://gitlab.com/Swannbm/gitlab-runner-on-scalingo",
+    "repository": "https://gitlab.com/Swannbm/gitlab-runner-on-scalingo",
+    "logo": "https://www.metabase.com/images/logo.svg",
+    "env": {
+      "BUILDPACK_URL": {
+        "description": "Buildpack used to deploy Metabase",
+        "value": "https://gitlab.com/Swannbm/gitlab-runner-on-scalingo.git",
+        "required": true
+      },
+      "REGISTRATION_TOKEN": {
+        "description": "Key to indicate the gitlab repository where to register",
+        "value": "GR1348941z5oKjrxjUC8Vc7stn_hY"
+      }
+    }
+  }

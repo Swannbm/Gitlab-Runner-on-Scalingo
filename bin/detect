@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Gitlab Runner on Scalingo"
+exit 0

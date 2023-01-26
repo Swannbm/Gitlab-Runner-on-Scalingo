@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Start"
+
+gitlab-runner start
+gitlab-runner register --url https://gitlab.com/ --registration-token $REGISTRATION_TOKEN
